@@ -1,0 +1,14 @@
+h1{
+    color: black;
+    font-size: 32;
+    text-align: center;
+}
+pre{
+    color: brown;
+    font-size: 16;
+}
+.images{
+    width: 200px;
+    height: auto;
+    border: 0ch, 10ch, 20ch;
+}
