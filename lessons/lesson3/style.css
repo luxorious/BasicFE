@@ -1,0 +1,27 @@
+ol{
+    /* list-style: georgian outside none; */
+    list-style-type: georgian;
+    list-style-position: inside;
+    list-style-image: none;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+}
+
+/* .grey{
+    background-color: grey;
+} */
+
+#table1 tr:nth-child(odd){
+    background-color: gray;
+}
+
+#tableRowCollor tr:nth-child(4), td:nth-child(3) {
+    background: yellow
+}

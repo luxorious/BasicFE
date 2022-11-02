@@ -1,0 +1,11 @@
+/* div p{
+    color: brown;
+} */
+
+/* .block1 p{
+    color: red;
+} */
+
+.block1 .p1{
+    color: blue;
+}
