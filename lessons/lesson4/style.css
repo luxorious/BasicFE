@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* div p{
     color: brown;
 } */
@@ -6,6 +12,44 @@
     color: red;
 } */
 
-.block1 .p1{
+/* .block1 .p1{
     color: blue;
+} */
+
+/* .block2{
+    background-color: blanchedalmond;
+    background-image: url('https://cutt.ly/hNDOeCx');
+} */
+
+.block3{
+    width: 300px;
+    height: 300px;
+    background-image: url('https://cutt.ly/5NDAmuG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:center; */
+
+    background-position: top center;
+    border-radius: 20% 100%;
+}
+
+body{
+    background-image: url('https://cutt.ly/uNDS5FL');
+    background-size: cover;
+}
+
+.block4{
+    width: 300px;
+    height: 300px;
+    /* background-image: url('https://cutt.ly/5NDAmuG'); */
+    background-size: cover;
+    background-position: top center;
+
+    background-color: #0f0;
+    /* box-shadow: 2px 2px 50px 10px gray; */
+
+    border: 5px solid black;
+    padding: 20px;
+    box-sizing: content-box;
+
 }

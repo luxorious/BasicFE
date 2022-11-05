@@ -1,0 +1,20 @@
+.divimage{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    background-image: url('https://cutt.ly/0NDG7FB');
+    background-position: center;
+    background-size: cover;
+    border-radius: 150px;
+    box-shadow: 2px 2px 50px 10px grey;
+}
+
+#task1{
+    background-color: #f00;
+    width: 50%;
+    height: 400px;
+    padding: 30px 5%;
+    margin: 40px 20%;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
