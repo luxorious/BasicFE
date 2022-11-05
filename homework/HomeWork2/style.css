@@ -1,0 +1,37 @@
+#mid{
+    text-align: center;
+    font-size: 32px;
+}
+ol{
+    font-size: 18px;
+    color: #f00;
+}
+
+.bigRed, h1, span{
+    color: #f00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#blue, .cursive, #blueSmall{
+    font-style: italic;
+    color: #00f;
+}
+
+#bold span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #f00;
+}
+
+div{
+    width: 50%;
+}
+
+.cursive{
+    color: #f00;
+}
+
+#blueSmall{
+    font-size: 16px;
+}
