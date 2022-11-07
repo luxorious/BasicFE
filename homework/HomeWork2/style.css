@@ -2,17 +2,17 @@
     text-align: center;
     font-size: 32px;
 }
-ol{
+ol, #blue{
     font-size: 18px;
     color: #f00;
 }
-
-.bigRed, h1, span{
+/* можна так много тегов писать  в одной строке?*/
+.bigRed, h1, h2, h3, span{
     color: #f00;
     font-size: 25px;
     font-weight: bold;
 }
-
+/* можно переопридилять некоторие теги как к примеру переопределил #blue, или лучше избегать такого?*/
 #blue, .cursive, #blueSmall{
     font-style: italic;
     color: #00f;
