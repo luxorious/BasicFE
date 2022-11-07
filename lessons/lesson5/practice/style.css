@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    font-size: 40px;
+}
+
+header{
+    color: white;
+    padding: 5%;
+    background-color: rgba(156, 166, 166, 0.69);
+    text-align: center;
+    font-size: 16px;
+
+}
+
+nav{
+    color: white;
+    display: flex;
+    background-color: black;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    flex: ;
+}
+/* hower псевдоклас */
+
+/* nav p :hover{
+    color: aliceblue;
+    text-shadow: 15px 5px 5px 5px red;
+
+.menu-main a:hover {
+    background: rgba(158, 120, 137, 0.6); */
+
