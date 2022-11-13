@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+dt{
+    background-color: black;
+    color: white;
+    margin: 0.5%;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+}
+
+dd{
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 0.5%;
+}

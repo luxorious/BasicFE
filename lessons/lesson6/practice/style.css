@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 80px;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    background-color: black;
+    /* align-content: center; */
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+a{
+    border-right: 1px solid white;
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+    padding: 20px;
+
+}
+
+a:hover{
+    color: rgb(12, 12, 12);
+    background-color: white;
+}
+
+h2, h3{
+    padding: 20px;
+}
+
+p{
+    width: 30%;
+    margin-left: 20px;
+    text-align: justify;
+}
