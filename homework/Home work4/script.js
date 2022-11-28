@@ -1,7 +1,7 @@
 // // task1
 // // Составьте программу, которая присваивает переменной d значение 7, а затем выводит на экран: в первой строке - это значение, во второй – квадрат этого значения, в третьей – куб этого значения.
 // let d = 7;
-// console.log(`number - ${d},\nsqrt - ${d**2},\ncubic - ${d**3}`);
+// console.log(`number - ${d},\n - ${d**2},\ncubic - ${d**3}`);
 
 // // task2
 // // Составьте программу, которая принимает с клавиатуры целое число и, если оно положительное, увеличивает его вдвое. Программа должна выводить на экран новое значение.
@@ -128,9 +128,13 @@
 
 // // task12
 // // Вывести только те значения массива, индекс которых кратен трем
-// for (let i = 0; i <=100; i++){
+// let list = []
+// for (let i = 0; i < 101; i++){
+//         list.push(i);
+//     }
+// for (let i = 0; i <=list.length; i++){
 //     if (i%3==0){
-//         console.log(i);
+//         console.log(list[i]);
 //     }
 // }
 
@@ -138,7 +142,7 @@
 // // Найти сумму чисел, чей индекс равен значению элемента.
 // let list = [1, 3, 2, 2, 4, 2, 6, 7];
 // let sum = 0;
-// for (let i = 0; i <=100; i++){
+// for (let i = 0; i <=list.length; i++){
 //     if (i == list[i]){
 //         sum+=i;
 //     }
@@ -156,27 +160,27 @@
 // console.log(sum)
 
 // // task15
-// // Найти сумму четных и нечетных чисел из массива и вывести разницу между ними. Вычесть из большего меньшее.
-// let sum_even = 0;
-// let sum_odd = 0;
+// Найти сумму четных и нечетных чисел из массива и вывести разницу между ними. Вычесть из большего меньшее.
+let sum_even = 0;
+let sum_odd = 0;
 
-// let arr = [];
-// for (let i = 0; i < 150; i++){
-//     arr.push(i);
-// }
+let arr = [];
+for (let i = 0; i < 150; i++){
+    arr.push(i);
+}
 
-// for (let i in arr){
-//     if (i%2==0){
-//         sum_even += +(i);
-//     } else {
-//         sum_odd += Number(i);
-//     }
-// }
+for (let i in arr){
+    if (i%2==0){
+        sum_even += +(i);
+    } else {
+        sum_odd += Number(i);
+    }
+}
 
-// console.log(sum_even)
-// console.log(sum_odd)
-// if (sum_even > sum_odd){
-//     console.log("sum even - sum odd = " + (sum_even - sum_odd));
-// } else {
-//     console.log("sum odd - sum even = " + (sum_odd - sum_even));
-// }
+console.log(sum_even)
+console.log(sum_odd)
+if (sum_even > sum_odd){
+    console.log("sum even - sum odd = " + (sum_even - sum_odd));
+} else {
+    console.log("sum odd - sum even = " + (sum_odd - sum_even));
+}
