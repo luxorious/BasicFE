@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -8,49 +9,15 @@ h1{
     margin: 10px;
 }
 
-.images{
-    width: auto;
-    height: 300px;
-    margin: 10px;
-}
+img{
+    width: 100%;
 
-a{
-    color: red;
-    font-size: 16px;
-    text-decoration: none;
 }
 
 div{
     border: 3px solid black;
     margin: 20px;
     padding: 10px;
-}
-
-pre{
-    color: black;
-    font-size: 20px;
-}
-
-#hobby{
-    background-color: yellow;
-    text-align: left;
-    /* margin: 20px;
-    padding: 10px; */
-}
-
-#work{
-    background-color: gray;
-    text-align: center;
-}
-
-#film{
-    background-color: aqua;
-    text-align: right;
-}
-
-#links{
-    background-color: rgba(22, 26, 35, 0.673);
-    text-align: center;
 }
 
 #links img{

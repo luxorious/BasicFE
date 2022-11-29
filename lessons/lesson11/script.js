@@ -42,12 +42,42 @@
 
 // document.querySelector('p').remove();
 
-// // Practice
-function clear(elem){
-    let list = document.querySelectorAll(elem);
-    for(let i of list){
-        document.querySelector(elem).remove();
-    }
+// // Practice 
+// // task1
+// function clear(elem){
+//     let list = document.querySelectorAll(elem);
+//     for(let i of list){
+//         i.remove();
+//     }
+// }
+
+// clear('li');
+
+
+// //task2
+
+// let ul = document.createElement('ul');
+// document.body.append(ul);
+
+// while (true){
+//     let ask = prompt('Input your text for list: ')
+//     if (ask == ''|| ask == " "){
+//         break;
+//     }
+//     let li = document.createElement('li');
+//     li.innerText = ask;
+//     ul.append(li);
+// }
+
+
+function my_funk(callback){
+    let a = [1,2,3,4,5]
+    let element = document.querySelector('.paragraph');
+    callback(element, a);
 }
 
-clear('li');
+function out(elem, arr){
+    elem.innerHTML = arr.join(' ')
+}
+
+my_funk(out)

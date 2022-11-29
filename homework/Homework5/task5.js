@@ -13,9 +13,15 @@ for (let i = 0; i < 4; i++){
     } else if(i == 3){
         l = '-rd link which describe your family'
     }
-    let link = prompt(`enter ${i} - ${l}: `)
+    let link = prompt(`enter ${i} ${l}: `)
     links.push(link)
 }
 
-console.log(links)
+document.querySelector('h1').innerText = 'Hello ' + links[0];
 
+let img = document.querySelectorAll('img')
+let i = 1;
+
+for(let image of img){
+    image.setAttribute('src', links[i++])
+}
