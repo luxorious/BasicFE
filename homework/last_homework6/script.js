@@ -202,12 +202,12 @@ create_cards()
 
 let all_divs = document.querySelectorAll('div')
 for (let i of all_divs){
-    let background = window.getComputedStyle(i).backgroundColor;
-    let color = window.getComputedStyle(i).color;
     i.addEventListener('click', function(){ // знаходить колір блоку і тексту
         i.classList.toggle('.active');
+        let background = window.getComputedStyle(i).backgroundColor;
+        let color = window.getComputedStyle(i).color;
         i.style.backgroundColor = color; 
-        i.style.color = background
+        i.style.color = background;
     })
 }
 
@@ -217,6 +217,26 @@ for (let i of all_divs){
 
 // 4. В js объявлен массив с ссылками на картинки. На основе этого массива формируется множество маленьких картинок в верхней части интерфейса. При нажатии на одну из картинок забирается ссылка на эту картинку и в нижней части интерфейса отображается в большем размере. Так, пользователь, нажимая на маленькие картинки видит их отображение в большем размере. 
 
+let images = ['https://cutt.ly/i1B4ugD', 'https://cutt.ly/V1B4faG', 'https://cutt.ly/H1B4xhp', 'https://cutt.ly/k1Ni6bw', 'https://cutt.ly/j1Nod5D', 'https://cutt.ly/k1NoboU'];
+
+function create_images(){
+    let div = document.createElement('div');
+    div.classList.add('divv');
+    document.body.append(div);
+    for (let i = 0; i < images.length; i++){
+        let img = document.createElement('.divv > img');
+        document.body.append(img);
+        for (let j = i; j < i + 1; j++){
+            let block = document.querySelectorAll('img');
+            block[j].setAttribute('src', images[j]);
+            block[j].style.display = "inline-block";
+            block[j].style.margin = '10px';
+            block[j].style.width = '100px'
+            block[j].style.height = '100px'
+        }
+    }
+}
+create_images()
 
 // 5. Есть массив из объектов. Каждый объект имеет свойства en и ru. В свойстве en написано слово на английском, а в свойстве ru на русском. Необходимо реализовать карточки, при нажатии на которые слова с русского меняются на английский и обратно.  Подсказка. В каждой карточке должно быть два параграфа. В одном написано на русском, а во втором на английском и при нажатии на карточку один параграф получает класс с display none а второй с display block. 
 
